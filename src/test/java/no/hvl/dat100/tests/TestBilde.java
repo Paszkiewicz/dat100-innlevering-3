@@ -44,9 +44,9 @@ public class TestBilde {
 	@Test
 	public void testToString() {
 		Bilde bilde = new Bilde(1,"Ole Olsen", "23-10","et bilde","http://www.picture.com/oo.jpg");
-		
+
 		String str = "BILDE\n1\nOle Olsen\n23-10\n0\net bilde\nhttp://www.picture.com/oo.jpg\n";
-		
+
 		assertEquals(str,bilde.toString(),str);
 	}
 }
